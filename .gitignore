@@ -1,2 +1,4 @@
 soft
 .bashrc
+__init__.py
+__pycache__

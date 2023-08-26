@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1693070976624,"sparkVersion":"3.4.1","uid":"OneHotEncoder_79afee2aaf67","paramMap":{"outputCol":"pu_weekday_onehot","inputCol":"pu_weekday_index"},"defaultParamMap":{"handleInvalid":"error","dropLast":true,"outputCol":"OneHotEncoder_79afee2aaf67__output"}}
