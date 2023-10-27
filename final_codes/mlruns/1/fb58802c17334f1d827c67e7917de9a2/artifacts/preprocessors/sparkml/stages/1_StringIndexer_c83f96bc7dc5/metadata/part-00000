@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1693753027868,"sparkVersion":"3.4.1","uid":"StringIndexer_c83f96bc7dc5","paramMap":{"outputCol":"pu_hour_index","inputCol":"pu_hour","handleInvalid":"keep"},"defaultParamMap":{"outputCol":"StringIndexer_c83f96bc7dc5__output","handleInvalid":"error","stringOrderType":"frequencyDesc"}}

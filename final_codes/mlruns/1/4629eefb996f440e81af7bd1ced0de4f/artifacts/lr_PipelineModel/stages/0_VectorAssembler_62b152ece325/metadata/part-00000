@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1693669509284,"sparkVersion":"3.4.1","uid":"VectorAssembler_62b152ece325","paramMap":{"inputCols":["trip_distance","VendorID_onehot","pu_hour_onehot","pu_weekday_onehot","PU_DO_onehot"],"outputCol":"features"},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_62b152ece325__output"}}

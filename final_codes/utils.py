@@ -43,9 +43,9 @@ def prepare_data(df_processed,categorical_cols,indexer_final=None,encoder_final=
     return encoded_df, indexer_final, encoder_final
     
 
-def train_model(encoded_df,feature_cols,label_col,regressor = LinearRegression):
+def train_model(encoded_df,feature_cols,label_col,regressor = LinearRegression,**kwargs):
     assembler = VectorAssembler(inputCols = feature_cols, outputCol = 'features')
-    regressor = regressor(featuresCol = 'features', labelCol= label_col )
+    regressor = regressor(featuresCol = 'features', labelCol= label_col,**kwargs )
     pipeline = Pipeline(stages = [assembler,regressor])
     model = pipeline.fit(encoded_df)
     return model
